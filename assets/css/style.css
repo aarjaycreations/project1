@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  background: #0c0b09;
+  background: #fcfcfc;
   color: #fff;
 }
 
@@ -185,7 +185,8 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 #header .logo img {
-  max-height: 40px;
+  /* max-height: 40px; */
+  padding-left: 0;
 }
 /*------Hero Section
 ------------------------------------------------------------------------
@@ -531,7 +532,7 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 1;
   visibility: visible;
   background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  box-shadow: 0px 0px 30px rgba(219, 219, 219, 0.25);
 }
 .navbar-mobile .dropdown ul li {
   min-width: 200px;
@@ -764,7 +765,7 @@ section {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: rgba(255, 255, 255, 0.2);
+  background: rgb(255, 255, 255);
   margin: 4px 10px;
 }
 .section-title p {
@@ -790,8 +791,9 @@ section {
   }
 }
 .breadcrumbs h2 {
-  font-size: 26px;
+  font-size: 36px;
   font-weight: 300;
+  text-align: center;
 }
 .breadcrumbs ol {
   display: flex;
@@ -826,7 +828,7 @@ section {
 # About
 --------------------------------------------------------------*/
 .about {
-  background: url("../img/about-bg.jpg") center center;
+  
   background-size: cover;
   position: relative;
   padding: 80px 0;
