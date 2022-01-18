@@ -774,7 +774,7 @@ section {
   font-size: 36px;
   font-weight: 700;
   font-family: "Playfair Display", serif;
-  color: #cda45e;
+  color: #a16806;
 }
 
 /*--------------------------------------------------------------
@@ -794,6 +794,7 @@ section {
   font-size: 36px;
   font-weight: 300;
   text-align: center;
+  color: #a16806;
 }
 .breadcrumbs ol {
   display: flex;
@@ -827,6 +828,7 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+#more {display: none;}
 .about {
   
   background-size: cover;
@@ -1044,7 +1046,7 @@ section {
   border: 0;
   padding: 12px 15px;
   transition: 0.3s;
-  color: #fff;
+  color: rgb(5, 5, 5);
   border-radius: 0;
   border-right: 2px solid #cda45e;
   font-weight: 600;
@@ -1088,7 +1090,7 @@ section {
 # Events
 --------------------------------------------------------------*/
 .events {
-  background: url(../img/events-bg.jpg) center center no-repeat;
+  background: url(../img/flex.jpg) center center no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -1669,4 +1671,8 @@ section {
   text-align: center;
   font-size: 13px;
   color: #fff;
+}
+/* top bar */
+.topbar{
+
 }
