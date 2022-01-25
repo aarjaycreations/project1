@@ -32,58 +32,32 @@
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
 
-    <!-- =======================================================
-  * Template Name: Restaurantly - v3.7.0
-  * Template URL: https://bootstrapmade.com/restaurantly-restaurant-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+
 </head>
 
 <body>
-    <!-- 
-   ======= Top Bar ======= --
-  <div id="topbar" class="d-flex align-items-center fixed-top">
-    <div class="container d-flex justify-content-center justify-content-md-between">
-
-      <div class="contact-info d-flex align-items-center">
-        <i class="bi bi-phone d-flex align-items-center"><span>+1 5589 55488 55</span></i>
-        <i class="bi bi-clock d-flex align-items-center ms-4"><span> Mon-Sat: 11AM - 23PM</span></i>
-      </div>
-
-      <div class="languages d-none d-md-flex align-items-center">
-        <ul>
-          <li>En</li>
-          <li><a href="#">De</a></li>
-        </ul>
-      </div>
-    </div>
-  </div> -->
-
     <!-- ======= Header ======= -->
     <header id="header" class="fixed-top d-flex align-items-cente">
         <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
             <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/patil.png" alt="" class="img-fluid"></a>
-            <!-- <h1 class="logo me-auto me-lg-0"><a href="index.html">
-      </a></h1> -->
+            <!-- <h1 class="logo me-auto me-lg-0">
+                <a href="index.html">
+                </a>
+            </h1> -->
             <!-- Uncomment below if you prefer to use an image logo -->
 
 
             <nav id="navbar" class="navbar order-last order-lg-0">
                 <ul>
-                    <li><a class="nav-link scrollto active" href="#hero">HOME</a></li>
+                    <li><a class="nav-link scrollto active" href="#">HOME</a></li>
                     <li class="dropdown"><a href="#about"><span>ABOUT</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="biography.html">Biography</a></li>
-
                             <li><a href="#menu">My Party</a></li>
-
                         </ul>
                     </li>
-
                     <li><a class="nav-link scrollto" href="#specials">VISION</a></li>
                     <li><a class="nav-link scrollto" href="#events">CONSTITUENCY</a></li>
-
                     <li class="dropdown"><a href="#testimonials"><span>INITIATIVES</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="#">Drop Down 1</a></li>
@@ -105,36 +79,37 @@
                         <ul>
                             <li><a href="#gallery">PHOTOS/VIDEOS</a></li>
                             <li><a href="#chefs">NEWS</a></li>
-
+                            <!-- <li><a href="#videos.html">VIDEOS</a></li> -->
                         </ul>
                     </li>
-
                     <li><a class="nav-link scrollto" href="#contact">CONTACT US </a></li>
-                    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-                </ul>
 
+                    <!-- google translate -->
+
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+
+            </nav>
+            <!-- .navbar -->
+            <!-- <a href="#book-a-table" class="book-a-table-btn scrollto d-none d-lg-flex">sign up</a> -->
+
+            <!-- <script type="text/javascript">
+                $.cookie('googtrans', '/en/it');
+            </script> -->
+            <div id="google_translate_element"></div>
+            <script type="text/javascript">
+                function googleTranslateElementInit() {
+                    new google.translate.TranslateElement({
+                        pageLanguage: 'en',
+                        layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+                    }, 'google_translate_element');
+                }
+            </script>
+            <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
         </div>
-        </nav>
-        <div id="google_translate_element"></div>
-
-        <script type="text/javascript">
-            function googleTranslateElementInit() {
-                new google.translate.TranslateElement({
-                    pageLanguage: 'en',
-                    layout: google.translate.TranslateElement.InlineLayout.SIMPLE
-                }, 'google_translate_element');
-            }
-        </script>
-
-
     </header>
-
-    <!-- .navbar -->
-    <!-- <a href="#book-a-table" class="book-a-table-btn scrollto d-none d-lg-flex">sign up</a> -->
-
     <!-- End Header -->
-
     <!-- ======= hero Section ======= -->
 
     <section class="container-fluid">
@@ -405,125 +380,35 @@
                     <p>MY PARTY</p>
                 </div>
 
-                <!-- <div class="row" data-aos="fade-up" data-aos-delay="100">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="menu-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-starters">Starters</li>
-              <li data-filter=".filter-salads">Salads</li>
-              <li data-filter=".filter-specialty">Specialty</li>
-            </ul>
-          </div>
-        </div> -->
-
-                <!-- <div class="row menu-container" data-aos="fade-up" data-aos-delay="200"> -->
-
-                <div class="row">
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="member" data-aos="zoom-in" data-aos-delay="100">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 order-1" data-aos="fade-right">
                             <img src="assets/img/menu/CONG2.png" class="img-fluid" alt="">
-                            <div class="member-info">
-                                <div class="member-info-content">
-                                    <!-- <h4>Walter White</h4>
-                    <span>Master Chef</span> -->
-                                </div>
-
-
-                                <!-- <div class="col-lg-6 menu-item filter-starters">
-            <img src="assets/img/menu/CONG.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Lobster Bisque</a><span>$5.95</span>
-            </div>
-            <div class="menu-ingredients">
-              Lorem, deren, trataro, filede, nerada
-            </div>
-          </div> -->
-
-                                <!-- <div class="col-lg-6 menu-item filter-specialty">
-            <!-- <img src="assets/img/menu/bread-barrel.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Bread Barrel</a><span>$6.95</span>
-            </div>
-            <div class="menu-ingredients">
-              Lorem, deren, trataro, filede, nerada
-            </div>
-          </div> -->
-
-                                <!-- <div class="col-lg-6 menu-item filter-starters">
-            <img src="assets/img/menu/cake.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Crab Cake</a><span>$7.95</span>
-            </div>
-            <div class="menu-ingredients">
-              A delicate crab cake served on a toasted roll with lettuce and tartar sauce
-            </div>
-          </div> -->
-
-                                <!-- <div class="col-lg-6 menu-item filter-salads">
-            <img src="assets/img/menu/caesar.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Caesar Selections</a><span>$8.95</span>
-            </div>
-            <div class="menu-ingredients">
-              Lorem, deren, trataro, filede, nerada
-            </div>
-          </div> -->
-
-                                <!-- <div class="col-lg-6 menu-item filter-specialty">
-            <img src="assets/img/menu/tuscan-grilled.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Tuscan Grilled</a><span>$9.95</span>
-            </div>
-            <div class="menu-ingredients">
-              Grilled chicken with provolone, artichoke hearts, and roasted red pesto
-            </div>
-          </div> -->
-
-                                <!-- <div class="col-lg-6 menu-item filter-starters">
-            <img src="assets/img/menu/mozzarella.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Mozzarella Stick</a><span>$4.95</span>
-            </div>
-            <div class="menu-ingredients">
-              Lorem, deren, trataro, filede, nerada
-            </div>
-          </div> -->
-
-                                <!-- <div class="col-lg-6 menu-item filter-salads">
-            <img src="assets/img/menu/greek-salad.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Greek Salad</a><span>$9.95</span>
-            </div>
-            <div class="menu-ingredients">
-              Fresh spinach, crisp romaine, tomatoes, and Greek olives
-            </div>
-          </div>
-
-          <div class="col-lg-6 menu-item filter-salads">
-            <img src="assets/img/menu/spinach-salad.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Spinach Salad</a><span>$9.95</span>
-            </div>
-            <div class="menu-ingredients">
-              Fresh spinach with mushrooms, hard boiled egg, and warm bacon vinaigrette
-            </div>
-          </div>
-
-          <div class="col-lg-6 menu-item filter-specialty">
-            <img src="assets/img/menu/lobster-roll.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Lobster Roll</a><span>$12.95</span>
-            </div>
-            <div class="menu-ingredients">
-              Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll
-            </div>
-          </div> -->
-
-                            </div>
-
                         </div>
+                        <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-left">
+                            <p>The Nationalist Congress Party is one of the few political parties in the country to have made a significant presence in the Indian political arena in a short span of time. The NCP was formed on June 10, 1999 and had to face
+                                Lok Sabha and Assembly elections within two months. The party fielded candidates from different parts of the country. It was a huge success and gained nationwide recognition. At the center, in Maharashtra and some other
+                                states, the NCP became a part of the government. The party had the opportunity to represent the people of Goa, Nagaland, Meghalaya, Manipur, Assam, Gujarat, Kerala, Bihar, Orissa, Jharkhand and Arunachal. The NCP is the
+                                only party to get the approval of the Election Commission in such a short span of time. The NCP was conceived under the dynamic leadership of Shri Sharad Pawar Saheb, a veteran of Indian politics. Although the party went
+                                to the polls soon after its inception, it was due to the hard work and efficiency of its leaders that the party was able to win the mandate of the people of the country.
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12" data-aos="zoom-in">
+                            <p> The brilliant performance of the Nationalist Congress Party and the mandate of the people were the major factors that compelled the Election Commission of India to grant Nationalist Party status to the Nationalist Congress
+                                Party. The popularity of the NCP is a result of the respect and affection that people have for Sharad Pawar. Whenever a natural calamity or catastrophe strikes the country or the state, Shri Pawar Saheb is the first to
+                                reach the affected areas and is ready to help the people and solve all the serious problems. The enactment of the National Food Security Act of 2013 shows Pawar's compassion and concern for the common man and the poor.
+                                The NCP has a leader who dreams of development and makes it a reality. The party and the people are the real beneficiaries. No other party has such a visionary leader who is experienced, studious, dynamic, balanced, strong,
+                                active and most importantly aware of the needs and aspirations of the people. He has the support of an effective team of good and capable administrators. That is why the NCP has been able to build trust among the people.</p>
+                        </div>
+                    </div>
+
+
+                </div>
         </section>
+
         <!-- End Menu Section -->
 
         <!-- ======= Specials Section ======= -->
@@ -614,7 +499,8 @@
                                     <div class="col-lg-8 details order-2 order-lg-1">
                                         <h3>Est eveniet ipsam sindera pad rone matrelat sando reda</h3>
                                         <p class="fst-italic">Omnis blanditiis saepe eos autem qui sunt debitis porro quia.</p>
-                                        <p>Exercitationem nostrum omnis. Ut reiciendis repudiandae minus. Omnis recusandae ut non quam ut quod eius qui. Ipsum quia odit vero atque qui quibusdam amet. Occaecati sed est sint aut vitae molestiae voluptate vel</p>
+                                        <p>Exercitationem nostrum omnis. Ut reiciendis repudiandae minus. Omnis recusandae ut non quam ut quod eius qui. Ipsum quia odit vero atque qui quibusdam amet. Occaecati sed est sint aut vitae molestiae voluptate vel
+                                        </p>
                                     </div>
                                     <div class="col-lg-4 text-center order-1 order-lg-2">
                                         <img src="assets/img/specials-5.png" alt="" class="img-fluid">
@@ -1027,8 +913,8 @@
             <div class="container" data-aos="fade-up">
 
                 <div class="section-title">
-                    <h2>Why Nationalist Congress Party?</h2>
-                    <p></p>
+
+                    <p class="text-left">Why Nationalist Congress Party?</p>
                 </div>
                 <div class="row">
                     <div class="col" align="right">
@@ -1050,8 +936,8 @@
                         </div>
 
                     </div>
-                    <div class="col-5">
-                        <div class="container" data-aos="zoom-in"><img src="assets/img/whyimg.jpg" class="testimonial-img" alt=""></div>
+                    <div class="col">
+                        <div class="container" class="whyimg" data-aos="zoom-in"><img src="assets/img/whyimg.jpg" class="testimonial-img" alt=""></div>
                     </div>
                     <div class="col" align="left">
                         <div class="text-dark">
@@ -1075,14 +961,60 @@
             </div>
         </section>
 
-
-
-
-
-
-
-
         <!--End Why Nationalist Congress Party? -->
+
+
+        <!-- ======= Blog Section ======= -->
+        <section id="blog" class="padd-sectio">
+
+            <div class="container" data-aos="fade-up">
+                <div class="section-title">
+
+                    <h2>blog</h2>
+                    <p>blog posts</p>
+
+
+                </div>
+
+                <div class="row" data-aos="fade-up" data-aos-delay="100">
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="block-blog text-left">
+                            <a href="#"><img src="assets/img/blog/blog-image-1.jpg" alt="img"></a>
+                            <div class="content-blog">
+                                <h4><a href="#">whats isthe difference between good and bat typography</a></h4>
+                                <span>05, juin 2017</span>
+                                <a class="float-end readmore" href="#">read more</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="block-blog text-left">
+                            <a href="#"><img src="assets/img/blog/blog-image-2.jpg" class="img-responsive" alt="img"></a>
+                            <div class="content-blog">
+                                <h4><a href="#">whats isthe difference between good and bat typography</a></h4>
+                                <span>05, juin 2017</span>
+                                <a class="float-end readmore" href="#">read more</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="block-blog text-left">
+                            <a href="#"><img src="assets/img/blog/blog-image-3.jpg" class="img-responsive" alt="img"></a>
+                            <div class="content-blog">
+                                <h4><a href="#">whats isthe difference between good and bat typography</a></h4>
+                                <span>05, juin 2017</span>
+                                <a class="float-end readmore" href="#">read more</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- End Blog Section -->
         <!-- ======= Contact Section ======= -->
         <section id="contact" class="contact">
             <div class="container" data-aos="fade-up">
@@ -1201,9 +1133,7 @@
                             <li><i class="bx bx-chevron-right"></i> <a href="#">About</a></li>
                             <li><i class="bx bx-chevron-right"></i> <a href="#">Vision</a></li>
                             <li><i class="bx bx-chevron-right"></i> <a href="#">Constituency</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Initiatives</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Gallery</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Contact Us</a></li>
+
                         </ul>
                     </div>
 
@@ -1218,13 +1148,13 @@
             </ul>
           </div> -->
 
-                    <div class="col-lg-4 col-md-6 footer-newsletter">
-                        <h4>Our Newsletter</h4>
-                        <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-                        <!-- <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form> -->
-                        <a href="#book-a-table" class="book-a-table-btn scrollto d-none d-lg-flex">sign up</a>
+                    <div class="col-lg-4 col-md-6 footer-links">
+                        <h4>Useful Links</h4>
+                        <ul>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Initiatives</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Gallery</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Contact Us</a></li>
+                        </ul>
 
                     </div>
 
@@ -1242,7 +1172,7 @@
                 <!-- You can delete the links only if you purchased the pro version. -->
                 <!-- Licensing information: https://bootstrapmade.com/license/ -->
                 <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/restaurantly-restaurant-template/ -->
-                Designed by <a href="https://bootstrapmade.com/">ADC Technologies Ltd.</a>
+                Designed by <a href="#">ADC Technologies Ltd.</a>
             </div>
         </div>
     </footer>
@@ -1262,6 +1192,9 @@
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
 
+</body>
+
+</html>
 </body>
 
 </html>
